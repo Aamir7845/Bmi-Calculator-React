@@ -1,0 +1,110 @@
+/* App.css */
+
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('bmi2.jpg'); /* Replace 'path/to/background-image.jpg' with your image */
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px); /* Apply blur effect to the background */
+  font-size: 120%; /* Increase font size */
+  font-weight: bold; /* Increase font weight */
+  color: red; /* Change font color to red */
+}
+
+/* Main container */
+.frame {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background-image: url('bmi.webp'); /* Replace 'path/to/background-image.jpg' with your image */
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px); 
+}
+
+/* Title styles */
+.text-center {
+  text-align: center;
+  font-size: 24px; /* Increase font size */
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="radio"],
+button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px; /* Decrease font size slightly */
+}
+
+/* Radio button labels */
+label {
+  margin-right: 10px;
+}
+
+/* Submit and Reset buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Reset button */
+.reset {
+  background-color: #dc3545;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Result display */
+.result {
+  margin-top: 20px;
+}
+
+/* Result fields */
+.result input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: none;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* BMI and Health labels */
+.result span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* BMI and Health input fields */
+.result input[type="text"] {
+  color: #333;
+}
+
+/* Placeholder styles */
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 480px) {
+  .frame {
+    width: 90%;
+  }
+}
